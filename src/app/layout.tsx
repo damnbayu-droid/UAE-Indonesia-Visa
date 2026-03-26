@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     "Indonesia Visa Service Dubai"
   ],
   authors: [{ name: "UAE Indonesia Visa" }],
-  metadataBase: new URL("https://uaeindonesiavisa.online"),
+  metadataBase: new URL("https://uaeindonesiavisa.agency"),
   alternates: {
-    canonical: "https://uaeindonesiavisa.online",
+    canonical: "https://uaeindonesiavisa.agency",
   },
   icons: {
     icon: "/Logo.webp",

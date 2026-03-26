@@ -27,11 +27,11 @@ export default function Home() {
     "@type": "WebPage",
     "name": "UAE Indonesia Visa",
     "description": "Professional UAE Indonesia visa services. Fast, reliable visa processing for your Indonesian adventure from UAE.",
-    "url": "https://uaeindonesiavisa.online",
+    "url": "https://uaeindonesiavisa.agency",
     "provider": {
       "@type": "Organization",
       "name": "UAE Indonesia Visa",
-      "url": "https://uaeindonesiavisa.online"
+      "url": "https://uaeindonesiavisa.agency"
     }
   };
 
