@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { SOCIAL_LINKS } from '../lib/data';
 
 interface FooterProps {
@@ -18,6 +19,12 @@ export function Footer({ selectedLanguage }: FooterProps) {
                                 ? 'Professional UAE to Indonesia visa services with 16+ years experience. Fast, reliable, and trusted by thousands from UAE and worldwide.'
                                 : 'خدمات تأشيرة إندونيسيا احترافية من الإمارات بخبرة 16+ عاماً. سريعة وموثوقة ومحترمة، موثوقة من الآلاف في جميع أنحاء العالم.'}
                         </p>
+                        <div className="mb-4">
+                            <Link href="/site-map" className="text-amber-500 hover:text-amber-400 font-bold flex items-center gap-2 transition-colors">
+                                {selectedLanguage === 'en' ? 'Sitemap / New Cluster' : 'خريطة الموقع / مجموعة جديدة'}
+                                <div className="w-1.5 h-1.5 bg-amber-500 rounded-full animate-pulse" />
+                            </Link>
+                        </div>
                     </div>
                     <div>
                         <h3 className="text-lg font-bold mb-4 md:mb-6 text-white">

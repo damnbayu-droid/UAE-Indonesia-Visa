@@ -107,6 +107,8 @@ export const SOCIAL_LINKS = [
     { name: "YouTube", url: "https://youtube.com/@balihelp", bgClass: "bg-red-600" },
 ] as const;
 
+export const POPULAR_VISAS = VISA_SERVICES.slice(0, 8);
+
 export const ICON_MAP = {
     Navigation,
     Globe,
